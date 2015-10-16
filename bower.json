@@ -18,7 +18,8 @@
     "Gruntfile.js",
     "karma-e2e.conf.js",
     "karma.conf.js",
-    "package.json"
+    "package.json",
+    "package.js"
   ],
   "dependencies": {
     "angular": "1.2.14",
