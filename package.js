@@ -1,5 +1,5 @@
 var options = {
-  "version": "1.0.21",
+  "version": "1.0.22",
   "packageName": "dvelopment:angular-datepicker",
   "where": "client"
 };
@@ -15,6 +15,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.0', 'METEOR@1.0');
   api.use('angular:angular@1.2.0', options.where);
+  api.use('stevezhu:lodash@3.10.1', options.where);
   api.addFiles('dist/angular-datepicker.js', options.where);
   api.addFiles('dist/angular-datepicker.css', options.where);
 });
